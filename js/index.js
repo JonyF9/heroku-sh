@@ -122,7 +122,7 @@ function resultado_id(data){
     paginar();
   }
   else{
-    tabla.style.visibility = 'none';
+    div.style.visibility = 'none';
     card.style.visibility = 'visible';
     card.innerHTML = ""
     card.style.display = 'block';
