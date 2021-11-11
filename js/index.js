@@ -123,6 +123,7 @@ function resultado_id(data){
   }
   else{
     div.style.visibility = 'none';
+    div.style.display = 'none';
     card.style.visibility = 'visible';
     card.innerHTML = ""
     card.style.display = 'block';
