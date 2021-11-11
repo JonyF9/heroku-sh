@@ -9,7 +9,7 @@ El código fuente se compone de los siguientes archivos:
             La consulta se ejecuta al hacer click en el botón Ver, se envía el texto de la barra de búsqueda a un script js en el archivo index.js.
             El resultado de la consulta se despliega en una tabla y si supera los 10 registros, se realiza una paginación donde se muestran 10 registros.
             La tabla tiene 3 campos: el # indica el número del registro obtenido en la consulta, Id es el identificador asociado al heroé y, por último el nombre del personaje.
-            En caso de que la consulta no arroje resultados, se muestra una tarjeta html con el mensaje de 'invalid id' al buscar por Id, o 'character with given name not found'               al realizar la consulta por el nombre.
+            En caso de que la consulta no arroje resultados, se muestra una tarjeta html con el mensaje de 'invalid id' al buscar por Id, 'bad name search request' o 'character               with given name not found' al realizar la consulta por el nombre.
             
 -js/index.js: contiene los scripts js para recibir los datos y enviar la respuesta obtenida a través de la consulta realizada a la API.
               la función buscar, obtiene en valor del texto de la barra de búsqueda, valida que no sea un campo vacío y verifica si se trata de una consulta por nombre o id. Si se               ingresa el caracter '/' este se reemplaza por ''.
