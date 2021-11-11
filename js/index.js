@@ -112,10 +112,10 @@ function resultado_id(data){
     var datos = [];
     datos['id'] = data['id'];
     datos['name'] = data['name'];
-    card.style.visibility = 'visible';
-    div.style.visibility = 'none';
-    div.style.display = 'none';
-    card.style.display = 'block';
+    card.style.visibility = 'none';
+    div.style.visibility = 'visible';
+    div.style.display = 'block';
+    card.style.display = 'none';
     tabla.innerHTML = "";
     elemento = '<tr><td colspan="4">'+'1'+'</td><td colspan="4">'+datos['id']+'</td><td colspan="7">'+datos['name']+'</td></tr>';
     tabla.insertAdjacentHTML('beforeend', elemento);
