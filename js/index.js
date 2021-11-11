@@ -7,7 +7,8 @@ function buscar(){
         busqueda_nombre(string);
       }
       else{
-        busqueda_id(string);
+        var i = parseInt(string, 10);
+        busqueda_id(i);
       }
     }
     else{
