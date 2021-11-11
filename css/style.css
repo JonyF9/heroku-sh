@@ -1,0 +1,43 @@
+.paging-nav {
+  text-align: center;
+  padding-top: 2px;
+}
+
+.paging-nav a {
+  margin: auto 2px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 1px 7px;
+  background: #91b9e6;
+  color: white;
+  border-radius: 3px;
+}
+
+.paging-nav .selected-page {
+  background: #187ed5;
+  font-weight: bold;
+}
+
+.paging-nav,
+#tableData {
+  width: 400px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+body{
+  background: url('../img/comics.jfif') no-repeat center center fixed;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+@media only screen and (max-width: 767px) {
+  body {
+    background-image: url('../img/comics.jfif');
+  }
+}
+
+.table > .caption-top, td, th{
+  border: 1px rgb(5, 5, 78) solid;
+}
